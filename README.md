@@ -1,6 +1,6 @@
 # AI Search Engine
 
-## an AI-based search and autocomplete engine that predicts user queries based on popular search patterns. The project will incorporate real-time filters for potentially defamatory or malicious suggestions. A user-feedback mechanism will allow quick review and removal of harmful autocompletes while maintaining transparency about how suggestions are generated.
+## This is an AI-based search and autocomplete engine that predicts user queries based on popular search patterns. The project will incorporate real-time filters for potentially defamatory or malicious suggestions. A user-feedback mechanism will allow quick review and removal of harmful autocompletes while maintaining transparency about how suggestions are generated.
 
 ```
 ai_search_engine/
