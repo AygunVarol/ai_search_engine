@@ -3,6 +3,28 @@
 ## an AI-based search and autocomplete engine that predicts user queries based on popular search patterns. The project will incorporate real-time filters for potentially defamatory or malicious suggestions. A user-feedback mechanism will allow quick review and removal of harmful autocompletes while maintaining transparency about how suggestions are generated.
 
 ```
+ai_search_engine/
+  - app.py
+  - templates/
+    - search.html
+  - search_engine/
+    - __init__.py
+    - predictor.py
+    - filter.py
+  - models/
+    - __init__.py
+    - search_data.py
+  - services/
+    - __init__.py
+    - feedback_handler.py
+  - utils/
+    - __init__.py
+    - database.py
+  - config/
+    - config.py
+```
+
+```
 The AI-based search and autocomplete engine will be structured using a Flask-based architecture with the following key components:
 
 1. app.py: The main Flask application entry point that initializes the server, configures routes, and sets up database connections using SQLAlchemy for PostgreSQL integration. It handles user authentication and API endpoints.
